@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin: 0;
+    padding: 10px 0;
+    background-color: #35424a;
+    color: #fff;
+    border-bottom: 3px solid #9840c6;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+header h1{
+    float: left;
+    font-weight: bold;
+}
+span{
+    color: #9840c6;
+    font-weight: bold;
+}
+nav{
+    float: right;
+    margin-top: 15px;
+}
+li{
+    display: inline;
+    word-spacing: 15px;
+}
+li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+a:hover{
+    color: #9840c6;
+    font-weight: bold;
+}
+.pro{
+    background-image: url(./images/showcase.jpg);
+    text-align: center;
+    height: 400px;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pro h1{
+    font-size: 36px;
+    padding: 60px 0 10px 0;
+}
+aside{
+    background: #35424a;
+    color: #fff;
+    padding: 10px 0;
+}
+aside p{
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    width: 50%;
+}
+form{
+    float: right;
+    margin: auto 0;
+    margin-top: 20px;
+}
+input{
+    width: 250px;
+    padding: 10px 0;
+    border: none;
+}
+button{
+    border: none;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+}
+.boxes{
+    background-color: #f4f4f4;
+}
+.box{
+    height: 400px;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.box img{
+    padding: 20px 0;
+}
+.box p{
+    padding: 10px 10px;
+}
+footer{
+    background-color: #35424a;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+}
