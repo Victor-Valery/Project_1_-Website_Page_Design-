@@ -1,127 +1,189 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    margin: 0;
-    padding: 10px 0;
-    background-color: #35424a;
-    color: #fff;
-    border-bottom: 3px solid #9840c6;
+header {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #35424a;
+  color: #fff;
+  border-bottom: 3px solid #9840c6;
 }
-.container{
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
+.container {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
 }
-header h1{
-    float: left;
-    font-weight: bold;
+header h1 {
+  float: left;
+  font-weight: bold;
 }
-span{
-    color: #9840c6;
-    font-weight: bold;
+span {
+  color: #9840c6;
+  font-weight: bold;
 }
-nav{
-    float: right;
-    margin-top: 15px;
+nav {
+  float: right;
+  margin-top: 15px;
 }
-li{
-    display: inline;
-    word-spacing: 15px;
+li {
+  display: inline;
+  word-spacing: 15px;
 }
-li a{
-    text-decoration: none;
-    font-size: 16px;
-    color: #fff;
-    text-transform: uppercase;
+li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
 }
-a:hover{
-    color: #9840c6;
-    font-weight: bold;
+a:hover {
+  color: #9840c6;
+  font-weight: bold;
 }
-.pro{
-    background-image: url(./images/showcase.jpg);
+.pro {
+  background-image: url(./images/showcase.jpg);
+  text-align: center;
+  height: 400px;
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pro h1 {
+  font-size: 36px;
+  padding: 60px 0 10px 0;
+}
+aside {
+  background: #35424a;
+  color: #fff;
+  padding: 10px 0;
+}
+aside p {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50%;
+}
+form {
+  float: right;
+  margin: auto 0;
+  margin-top: 20px;
+}
+input {
+  width: 250px;
+  padding: 10px 0;
+  border: none;
+}
+button {
+  border: none;
+  padding: 10px;
+  background-color: orangered;
+  color: white;
+}
+.boxes {
+  background-color: #f4f4f4;
+}
+.box {
+  height: 400px;
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+.box img {
+  padding: 20px 0;
+}
+.box p {
+  padding: 10px 10px;
+}
+footer {
+  background-color: #35424a;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  position: relative;
+}
+.main-grid {
+  background-color: #f4f4f4;
+}
+.about--us {
+  float: left;
+  width: 60%;
+  margin-right: 25px;
+}
+.background {
+  background-color: #35424a;
+  color: white;
+  padding: 10px;
+}
+.wwd {
+  background-color: #35424a;
+  width: 30%;
+  float: right;
+  color: #ffffff;
+  margin-top: 15px;
+  padding: 25px 10px;
+  margin-bottom: 200px;
+}
+.footer {
+  margin-bottom: 0;
+}
+.services {
+  float: left;
+  width: 60%;
+  margin-right: 25px;
+}
+.service {
+  padding: 20px;
+  background-color: #e6e6e6;
+  border: 1px solid darkgray;
+  margin-bottom: 5px;
+}
+.wwd input {
+  width: 370px;
+  margin: 5px 0;
+}
+@media (max-width: 768px) {
+  header h1,
+  nav {
+    float: none;
     text-align: center;
-    height: 400px;
-    color: #fff;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.pro h1{
-    font-size: 36px;
-    padding: 60px 0 10px 0;
-}
-aside{
-    background: #35424a;
-    color: #fff;
-    padding: 10px 0;
-}
-aside p{
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    width: 50%;
-}
-form{
-    float: right;
-    margin: auto 0;
-    margin-top: 20px;
-}
-input{
-    width: 250px;
-    padding: 10px 0;
-    border: none;
-}
-button{
-    border: none;
-    padding: 10px;
-    background-color: orangered;
-    color: white;
-}
-.boxes{
-    background-color: #f4f4f4;
-}
-.box{
-    height: 400px;
-    width: 30%;
-    float: left;
+    width: 100%;
+  }
+  .subscribe p {
     text-align: center;
-}
-.box img{
-    padding: 20px 0;
-}
-.box p{
-    padding: 10px 10px;
-}
-footer{
-    background-color: #35424a;
-    color: #fff;
-    padding: 25px;
+    float: none;
+    width: 100%;
+  }
+  .subscribe form {
+    float: none;
     text-align: center;
-    position: relative;
-}
-.main-grid{
-    background-color: #f4f4f4;
-}
-.about--us{
-    float: left;
-    width: 60%;
-    margin-right: 25px;
-}
-.background{
-    background-color: #35424a;
-    color: white;
-    padding: 10px;
-}
-.wwd{
-    background-color: #35424a;
-    width: 30%;
-    float: right;
-    color: #ffffff;
-    margin-top: 15px;
-    padding: 25px 10px;
-    margin-bottom: 200px;
+  }
+  .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .about--us {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .wwd {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  .wwd input {
+    width: 100%;
+  }
+  .services {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  #button {
+    width: 100%;
+  }
 }
