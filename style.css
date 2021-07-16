@@ -103,3 +103,25 @@ footer{
     text-align: center;
     position: relative;
 }
+.main-grid{
+    background-color: #f4f4f4;
+}
+.about--us{
+    float: left;
+    width: 60%;
+    margin-right: 25px;
+}
+.background{
+    background-color: #35424a;
+    color: white;
+    padding: 10px;
+}
+.wwd{
+    background-color: #35424a;
+    width: 30%;
+    float: right;
+    color: #ffffff;
+    margin-top: 15px;
+    padding: 25px 10px;
+    margin-bottom: 200px;
+}
